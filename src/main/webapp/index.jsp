@@ -26,7 +26,8 @@
         
         button{
             background-color: ##446126;
-            color:#dcf7df;
+            color:black;
+            fontfont-size: 30px;
             text-align:center;
         }
         
