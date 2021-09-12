@@ -7,38 +7,52 @@
         
         body{
             background: #dcf7df;
+            font-family: 'Urbanist', sans-serif;
+            text-align:center;
         }
         b{
             color: black;
-            text-decoration-style: wavy;
-            text-align:center;
+            text-decoration: wavy;
+            
             font-size:50px;
         }
         
         .formdata{
-            
-            font-family: 'Urbanist', sans-serif;
-            text-align:center;
+     
             color : ##446126;
              font-size: 30px;
+            padding: 6px;
         }
+        
+        button{
+            background-color: ##446126;
+            color:#dcf7df;
+            text-align:center;
+        }
+        
+        .one, .two, .three{
+        padding: 6px;
+        }
+        
     </style>
     
 <body>
     
-<b>Welcome to Servlets!</b>
+<b>REGISTER YOURSELF</b>
     <div class="formdata">
-        <form action="HelloWorldServlet" method="get">
+        <form class="one" action="HelloWorldServlet" method="get">
     Enter your name: <input type="text" name="name" size="24">
     
 </form>
-    <form action="HelloWorldServlet" method="get">
+    <form class="two" action="HelloWorldServlet" method="get">
     Enter your Conatct Number: <input type="text" name="number" size="24">
 </form>
-    <form action="HelloWorldServlet" method="get">
+    <form class="three" action="HelloWorldServlet" method="get">
     Enter your Email ID: <input type="text" name="email" size="24">
-    <input type="submit" value="Submit" />
+       
 </form>
+        <button>SUBMIT</button>
+        
     </div>
 
 </body>
